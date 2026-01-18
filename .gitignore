@@ -1,0 +1,25 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Временные файлы
+*.log
+*.tmp
+
+# Архивы расширения
+*.crx
+*.pem
+*.zip
+
+# Node modules (если будем использовать build tools)
+node_modules/
+package-lock.json
+
+# Тестовые данные
+test-data/
