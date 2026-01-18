@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>EstoBoost</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>EstoBoost</h2>
+    
+    <div class="section">
+      <label for="api-key">Ekilex API Key:</label>
+      <input type="text" id="api-key" placeholder="Введите ваш API ключ">
+      <button id="save-key">Сохранить</button>
+      <div id="status" class="status"></div>
+    </div>
+
+    <div class="section">
+      <p class="info">Получить API ключ можно на сайте <a href="https://ekilex.ee" target="_blank">ekilex.ee</a></p>
+    </div>
+
+    <div class="section">
+      <h3>Статистика:</h3>
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-label">Знаю:</span>
+          <span id="known-count" class="stat-value">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Не знаю:</span>
+          <span id="unknown-count" class="stat-value">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
