@@ -1,0 +1,7 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect width="128" height="128" rx="24" fill="#0051A5"/>
+  
+  <!-- Белые буквы EB -->
+  <text x="64" y="85" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#FFFFFF" text-anchor="middle">EB</text>
+</svg>
